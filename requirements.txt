@@ -8,3 +8,7 @@ requests
 flask
 streamlit
 missingno
+lightgbm
+xgboost
+mlflow
+joblib
