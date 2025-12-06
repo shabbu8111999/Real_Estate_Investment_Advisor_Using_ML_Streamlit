@@ -18,7 +18,12 @@ def eval_classifier(y_true, y_pred):
     f1 = f1_score(y_true, y_pred)
     precision = precision_score(y_true, y_pred)
     recall = recall_score(y_true, y_pred)
-    roc_auc = roc_auc_score(y_true, y_pred)
+    
+    try:
+        roc_auc = roc_auc_score(y_true, y_pred)
+    except ValueError:
+        # Fallback if ROC AUC cannot be computed
+        roc_auc = 0.0
 
     return {
         "Accuracy": acc,

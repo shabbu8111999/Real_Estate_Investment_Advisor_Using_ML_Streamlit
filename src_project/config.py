@@ -16,3 +16,8 @@ RANDOM_STATE = 42
 # Target creation settings
 GROWTH_RATE = 0.08  # 8% yearly
 YEARS = 5
+
+# Mlflow settings
+MLFLOW_TRACKING_PATH = BASE_DIR / "ML_runs_modular" 
+MLFLOW_TRACKING_URI = MLFLOW_TRACKING_PATH.as_uri() 
+MLFLOW_EXPERIMENT_NAME = "real_estate_investment"

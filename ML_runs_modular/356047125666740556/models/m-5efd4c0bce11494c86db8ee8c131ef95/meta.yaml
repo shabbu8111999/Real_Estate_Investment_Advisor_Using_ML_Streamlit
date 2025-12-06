@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/H%20P/Desktop/Real_Estate_Investment_Advisor_Using_ML_Streamlit/ML_runs_modular/356047125666740556/models/m-5efd4c0bce11494c86db8ee8c131ef95/artifacts
+creation_timestamp: 1765011889559
+experiment_id: '356047125666740556'
+last_updated_timestamp: 1765011901056
+model_id: m-5efd4c0bce11494c86db8ee8c131ef95
+model_type: null
+name: classifier_model
+source_run_id: b3adbb835c2145f2bd3423cc98996606
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/H%20P/Desktop/Real_Estate_Investment_Advisor_Using_ML_Streamlit/ML_runs_modular/356047125666740556/models/m-8f5bc97bb3aa4711b69774023b788c9c/artifacts
+creation_timestamp: 1765011998143
+experiment_id: '356047125666740556'
+last_updated_timestamp: 1765012005465
+model_id: m-8f5bc97bb3aa4711b69774023b788c9c
+model_type: null
+name: regressor_model
+source_run_id: aa03c2511909465999068224237f9bf3
+status: 2
+status_message: null
