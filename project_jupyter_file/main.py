@@ -1,4 +1,3 @@
-# main.py
 
 import streamlit as st
 import pandas as pd
@@ -93,7 +92,7 @@ st.sidebar.write("- Filters + charts for insights")
 
 tab_pred, tab_insights = st.tabs(["🔮 Prediction", "📊 Insights & Filters"])
 
-# ---------------- PREDICTION TAB ----------------
+# PREDICTION TAB
 with tab_pred:
     st.header("Property Details")
 
@@ -193,7 +192,7 @@ with tab_pred:
         else:
             st.caption("Feature importance not available for this model.")
 
-# ---------------- INSIGHTS TAB ----------------
+# INSIGHTS TAB 
 with tab_insights:
     st.header("Filters & Market Insights")
 
