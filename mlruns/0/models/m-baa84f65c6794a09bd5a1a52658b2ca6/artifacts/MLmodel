@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/H P/Desktop/Real_Estate_Investment_Advisor_Using_ML_Streamlit/mlruns/0/models/m-baa84f65c6794a09bd5a1a52658b2ca6/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.7.0
+model_id: m-baa84f65c6794a09bd5a1a52658b2ca6
+model_size_bytes: 948197
+model_uuid: m-baa84f65c6794a09bd5a1a52658b2ca6
+prompts: null
+run_id: d76552eaba1f46fd91c6f7ed0b67ca6d
+utc_time_created: '2025-12-12 17:08:39.519829'
