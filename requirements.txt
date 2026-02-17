@@ -5,3 +5,10 @@ streamlit
 joblib
 xgboost
 lightgbm
+matplotlib
+seaborn
+tensorflow
+requests
+missingno
+mlflow 
+joblib
