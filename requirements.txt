@@ -1,14 +1,7 @@
 numpy
 pandas
-matplotlib
-seaborn
 scikit-learn
-tensorflow
-requests
-flask
 streamlit
-missingno
-lightgbm
-xgboost
-mlflow
 joblib
+xgboost
+lightgbm
